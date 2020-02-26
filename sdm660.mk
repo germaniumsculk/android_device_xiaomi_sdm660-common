@@ -233,6 +233,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom
 endif
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
