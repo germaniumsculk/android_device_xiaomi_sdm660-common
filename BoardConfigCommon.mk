@@ -25,6 +25,8 @@ AB_OTA_PARTITIONS ?= \
     odm
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
+else
+AB_OTA_UPDATER := false
 endif
 
 # Broken Files/Headers

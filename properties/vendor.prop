@@ -118,7 +118,6 @@ ro.audio.spatializer_enabled=true
 persist.vendor.audio.spatializer.speaker_enabled=true
 
 # Camera
-persist.camera.perfd.enable=true
 vendor.camera.aux.packageblacklist=com.discord
 
 # Crypto

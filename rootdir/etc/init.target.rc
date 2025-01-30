@@ -172,8 +172,6 @@ on post-fs-data
 
 on early-boot
     write /dev/ipa 1
-    # Enable charging led trigger
-    write /sys/class/leds/red/trigger battery-charging-or-full
 
 on boot
     start vendor.rmt_storage
@@ -482,6 +480,8 @@ on property:sys.boot_completed=1
     setprop vendor.powerhal.init 1
     # Stop bootanimation
     stop bootanim
+    # Enable charging led trigger
+    write /sys/class/leds/red/trigger battery-charging-or-full
 
 on property:init.svc.surfaceflinger=stopped
     stop ppd

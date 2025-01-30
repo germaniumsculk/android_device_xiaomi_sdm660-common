@@ -22,4 +22,7 @@
 
     <!-- Whether to show emergency gesture in Settings -->
     <bool name="config_show_emergency_gesture_settings">false</bool>
+
+    <!-- Max network scan search time in seconds -->
+    <integer name="config_network_scan_helper_max_search_time_sec">254</integer>
 </resources>
