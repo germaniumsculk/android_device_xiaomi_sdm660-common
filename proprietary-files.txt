@@ -89,8 +89,8 @@ vendor/lib64/libqtigef.so|b0c85df22d10e1f8adefe4cee8fddd7672acabd1
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 -system_ext/framework/audiosphere.jar|cfe651014a70739e4a2a41dc746fa8111f092bde
 
-# Audio FX modules - from google/cheetah/cheetah:13/TQ3A.230805.001/10316531:user/release-keys
-vendor/lib/soundfx/libspatialaudio.so|b26727b8887dad56f5e183f7145487c88bd2f065
+# Audio FX modules - from google/cheetah/cheetah:15/AP3A.241005.015
+vendor/lib/soundfx/libspatialaudio.so|1b574e25db97b76b712ddffda6da42c3c5c5df6e
 
 # Audio FX modules - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
 vendor/lib/soundfx/libasphere.so|215c6398599cd6ff31dcda5bd8031df503de3248
@@ -167,11 +167,11 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|d73d790098
 vendor/bin/cdsprpcd|4328f165661becf854f4160798604c80646d3b12
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
 vendor/lib/libcdsp_default_listener.so|a12223866800e96d70c6aadfaf97f875bbb44741
-vendor/lib/libcdsprpc.so|f695b1309fe3a1394198f63b516bd63e4afea38c
+-vendor/lib/libcdsprpc.so|f695b1309fe3a1394198f63b516bd63e4afea38c
 vendor/lib/libfastrpc_utf_stub.so|cf7abf9e1424590a9ce37d44a9351ad45ef489c6
 vendor/lib/libsysmon_cdsp_skel.so|1ae0c1df309e4aa6782f74a260372efd8709c824
 vendor/lib64/libcdsp_default_listener.so|5e372b9be619e792f9ab5d200f33c02fda73a771
-vendor/lib64/libcdsprpc.so|618b76b55d5f642b6a4f8ef72ca5f73227dbfeeb
+-vendor/lib64/libcdsprpc.so|618b76b55d5f642b6a4f8ef72ca5f73227dbfeeb
 vendor/lib64/libfastrpc_utf_stub.so|5101b6dd3a69b330c7b5ea5aa2f9349ad58edb7d
 vendor/lib64/libsysmon_cdsp_skel.so|b5584502cd9adadc35af392ae74b688810848cd7
 
@@ -490,14 +490,14 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|6a2f5d2accb924a182e98f1fa229e3a8bc8a161f
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|83663e2fb647a8203dcfb34cf83b62dcc0e890e1
 
-# GPS - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+# GPS - from Zebra/helios/helios:13/13-34-31.00-TG-U00-STD-HEL-04/181:user/release-keys
 vendor/bin/garden_app|2a390b68bf7f5992821e1c61cadd76716ebb4152
 vendor/bin/loc_launcher|cd7c682ee79e0dca4bb53d989940ce371a293f03
 vendor/bin/lowi-server|94a9cd664a8c68e1521c966b3c8ee1196e9d9e44
 vendor/bin/mlid|c24ee2ca447ae849d961d608a05041b856413653
 vendor/bin/slim_daemon|dd6d0da93f6120996aa9a781f620e3b7a713ee0e
-vendor/bin/xtra-daemon|3aecdc70ada417c449271eaa55b84cb4947fc655
-vendor/bin/xtwifi-client|cb207c52ae8fb9c44d85402763ad77493b1ade7f
+vendor/bin/xtra-daemon|79d13addab9129dfdfd77d963d2574b5a1a32ff0
+vendor/bin/xtwifi-client|4311f16dcf4105152ae86c4ed9031fd65b1563f3
 vendor/bin/xtwifi-inet-agent|10f16bc92e7a1e4d790c4234c05807f2fe125212
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
@@ -559,41 +559,41 @@ vendor/firmware/a530v3_gpmu.fw2|0a2f6f450231673d75ba39e5d28776db3becf810
 vendor/firmware/a530v3_seq.fw2|8963a53acc689725dee4b22881a4dd4b80e5def8
 vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 
-# Graphics - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+# Graphics - from Zebra/helios/helios:13/13-34-31.00-TG-U00-STD-HEL-04/181:user/release-keys
 vendor/lib/egl/eglSubDriverAndroid.so|060dba8d1f7bdfb2a2a5cabc6fb7fbfe48473bce
 vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so|88e2304085953b5ae669c7ce6faf2badebd68e19
 vendor/lib/egl/libGLESv1_CM_adreno.so|0a147805e9141176a75865e0a4a442f86d2a01b4
-vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|af784924b71013299388f46cc429ccc626230467
+vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|716c70a3d79807509d73fa76b0dcec2e460895f5
 vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|6019ae8a364cd02495aaab20eaa8447d7c6bb765
-vendor/lib/egl/libq3dtools_esx.so|abe5c3d8c9e3b3f6837bc660db3d71d8a3a04e59
+vendor/lib/egl/libq3dtools_esx.so|0a9fc74e1d36b84f0962a98ced891d0d1d284d54
 vendor/lib/libadreno_utils.so|353bf541bd55db6e6b27d35020b4524064afcc6b
 vendor/lib/libC2D2.so|d615afb5c1f3cfdf2ef886508f965d37e4df8671
 vendor/lib/libc2d30_bltlib.so|984932a51e057d917077593af7871a873654ea2e
-vendor/lib/libCB.so|4101777c293bbe446dbe8c99d802bc93f0b53442
-vendor/lib/libgpudataproducer.so|0cbee1a87880f2c61dda27e4c1ce763b8f6e09b7
+vendor/lib/libCB.so|e24bad751e301d7cabbad80f2bc4e4ac0a30e99a
+vendor/lib/libgpudataproducer.so|57764733e7c69a6a3923da49d6b034d2d3ae18f9
 vendor/lib/libgsl.so|95cf9dad3e226bc31c84f6bb059611696ccbad04
 vendor/lib/libllvm-glnext.so|878ccacec32ab702bcce9dd187c7221d7e00e073
-vendor/lib/libllvm-qcom.so|57a7a584e96e1beab4b5bb190273cbea72e26154
-vendor/lib/libOpenCL.so|a1e2335088cd01efdbc56b27f311afaaad18d87d
+vendor/lib/libllvm-qcom.so|369cbbc84bdd907d1f9d5cca98f87ad61bcf1ee3
+-vendor/lib/libOpenCL.so|a1e2335088cd01efdbc56b27f311afaaad18d87d
 vendor/lib/librs_adreno.so|5bf85e1f671444105323c9f61799c6cf3a0ea075
-vendor/lib/libVkLayer_q3dtools.so|e4fa94e3b4a040a958d26cfc6b762e174dc36fb0
+vendor/lib/libVkLayer_q3dtools.so|e8bab843e0204fcf957cac672d1f56cda75a2a28
 vendor/lib64/egl/eglSubDriverAndroid.so|7f60db4fb7f5bb4376c7c43e6c0e95fcd4cfe9b5
 vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|6496d03bc5fc937d263bd6d120d4a6f3a5ca259e
 vendor/lib64/egl/libGLESv1_CM_adreno.so|8e8a325a9453f4d96f6ef9f32e9f10deee3c80d7
-vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|52051fd0eaa925c3c6bb83bd0913e7e7fb015264
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|7f4fe2c1124f452053b7e926dc84bc11853b039e
 vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|9b7cf24c07b69e13245c796fd17e83daca3c8fad
-vendor/lib64/egl/libq3dtools_esx.so|2d5f3a606896b63777e58aae1aa7aa6299dd3a94
+vendor/lib64/egl/libq3dtools_esx.so|4cfbc1cef2b2017c0912a68b2816cdaaf9fd7913
 vendor/lib64/libadreno_utils.so|273e46534f9b3ca33e45e7dbbe8f2f5dcad892f8
 vendor/lib64/libC2D2.so|8db0ab2f83750393e9ed6c81d6b15bb9340479fe
 vendor/lib64/libc2d30_bltlib.so|e13d7ae099bee39683f85c5a2d23f7345642f66d
-vendor/lib64/libCB.so|4f6e6f13dfeb04f3bdb1b2afa69dbe266c36357b
-vendor/lib64/libgpudataproducer.so|2b9da7e881c8d5562ed0d498721e3c239596df67
+vendor/lib64/libCB.so|e38abf403ff0f5c97801a36c5c94bd5ea42402df
+vendor/lib64/libgpudataproducer.so|b3f38a332069945b9c5b2610d7cb13d685e10ded
 vendor/lib64/libgsl.so|3d8b35056d9b6e57496a27f9450322f98631eac4
 vendor/lib64/libllvm-glnext.so|febfe0394dd58bc882a2be7986ab240644077229
 vendor/lib64/libllvm-qcom.so|1c9d3822a56d981a6ffff4d876e1e8609681b662
-vendor/lib64/libOpenCL.so|df73d6045873350b3ef49a8eaaa0c6e5fd958a4c
+-vendor/lib64/libOpenCL.so|df73d6045873350b3ef49a8eaaa0c6e5fd958a4c
 vendor/lib64/librs_adreno.so|e1e8c1db5fd06d55498bc235618acb2792174411
-vendor/lib64/libVkLayer_q3dtools.so|55b486927aed5589f13e1fa66162e845d44e1c43
+vendor/lib64/libVkLayer_q3dtools.so|95cd16ad9780a660f474d32226c450e99d0396ab
 
 # Graphics (HDR) - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
 vendor/lib/libhdr_tm.so|dd0e01284e1e76244a849e5a2e0393a21bd36508
@@ -637,15 +637,9 @@ vendor/lib64/libsdm-diag.so|cfcd838d9ca203e70a5e284b36a274e6b479f485
 vendor/lib64/libsdmextension.so|9baf67fa56d5c7bb296bf6c4942c253522638dd2
 vendor/lib64/libtinyxml2_1.so|6d602dfd9df770ee6ecdbe0e9d98b8951dd8483d
 
-# Graphics (Vulkan) - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
-vendor/lib/hw/vulkan.adreno.so|6380e9bfb197f9d0c5343947fcf4951547081e08
-vendor/lib64/hw/vulkan.adreno.so|ddd807adafcfe2de02c12d785317ebf56bc19e2f
-
-# HotwordEnrollment - from blueline-user 12 SP1A.210812.016.C2 8618562 release-keys
--product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk|7161356d39a17b52e4464f598bc106fc88566007
--product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk|a329a2d5fe984cb016c9cd764d97ce01bd42ff9a
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
-system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be426a66be09dd08ab9c1921327ef0
+# Graphics (Vulkan) - from Zebra/helios/helios:13/13-34-31.00-TG-U00-STD-HEL-04/181:user/release-keys
+vendor/lib/hw/vulkan.adreno.so|c9243672f1543fddb5313803a841b527055cd4a5
+vendor/lib64/hw/vulkan.adreno.so|6eb971883930dec2bafd209f1c503ac81d77e836
 
 # IRQ balance - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
 vendor/bin/msm_irqbalance|9e39bffcabe1dfd1d1a4d004171c7b01179f3ca8
@@ -673,7 +667,6 @@ system_ext/lib64/liblistenjni.qti.so|f7a0504c2b52a34976f59507aa0c361e75ea9e77
 system_ext/lib64/liblistensoundmodel2.qti.so|c13687f58b5f42d928765aaf844ed95cf38b9b1f
 
 # Listen - from Zebra/helios/helios:13/13-32-14.00-TG-U02-STD-HEL-04/163:user/release-keys
-vendor/lib/hw/sound_trigger.primary.sdm660.so|36bfc9aefb05c4a15c3ab86c863b49167241d2d3
 vendor/lib/libadpcmdec.so|e93004a25f718447c0c9ea13f57ab98abdb04077
 vendor/lib/libgcs-calwrapper.so|774922d73d1ca2c520168b45dcca69ea0fdef40f
 vendor/lib/libgcs-ipc.so|ede31a7e061e9d2d182da006088aebd3ec6c5101
@@ -681,7 +674,6 @@ vendor/lib/libgcs-osal.so|7d019b8c28f49bc7ae571bb033483b425d70485e
 vendor/lib/libgcs.so|7cad77da6218d3ebc10d02ae16887e9828be098a
 vendor/lib/libmulawdec.so|940e646054ba3ea5ebf068e6ef83d3bedbab9ea4
 vendor/lib/libsmwrapper.so|eee5f95c2606a564c91cd70083e5e66328c0fb6c
-vendor/lib64/hw/sound_trigger.primary.sdm660.so|fbed0dba6a56bf7de3a9599210bc1885b47df4cc
 vendor/lib64/libgcs-calwrapper.so|851adb2ace8d1c8b16ecae08fbcacb3bd2d87bd3
 vendor/lib64/libgcs-ipc.so|85269967df043ff3aaaa62347b161362d9df39a3
 vendor/lib64/libgcs-osal.so|158586fa96dc726ae661767ecaa08b28d8ea1bf8
@@ -832,7 +824,7 @@ system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|a19ecac9a0c9
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so|883b0b971473b6e43709eaaea11943e72580c33b
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|c918ca8f28ac1ce27b4c2c9ac9a0f042fb3cad5d
 
-# Radio - from Zebra/helios/helios:13/13-32-14.00-TG-U02-STD-HEL-04/163:user/release-keys
+# Radio - from Zebra/helios/helios:13/13-34-31.00-TG-U00-STD-HEL-04/181:user/release-keys
 vendor/bin/hw/qcrild|452be3cc159d7f0a001f03cd00845b159b002b13
 vendor/bin/adpl|3de10f1c962aac60a5b9f35935e5322aa80d897b
 vendor/bin/netmgrd|3ec640be13470f608ed8c476e31c4bfeab6a4a21
@@ -872,8 +864,8 @@ vendor/lib64/libqrtr.so|948619679d57ca85512ddef90684468df1b23d70
 vendor/lib64/libqsocket.so|bee3fe87b9a515912368e2e25283e72d02bf4fc0
 vendor/lib64/libril-qc-hal-qmi.so|239abe3c65b96ec5b8b9fecf38fe4a65e3d94280
 vendor/lib64/libril-qc-logger.so|103045dba0de411366d7d4884096838663b80941
-vendor/lib64/libril-qc-ltedirectdisc.so|4ddcde16c4b4dce37e21ce25ecba22cdcd4d74a7
-vendor/lib64/libril-qc-radioconfig.so|6725b4b73c05b05a61a3e7290a51f82f2f6749d4
+vendor/lib64/libril-qc-ltedirectdisc.so|9bf4e6768a064e10d1adea50bc85a07223a57c70
+vendor/lib64/libril-qc-radioconfig.so|a5c473cfb1c7740f3e885fa96eb8a4fded4faa0f
 vendor/lib64/libril-qcril-hook-oem.so|b1e21403183c82c62953345cc8b6307b10e9ceb3
 vendor/lib64/librilqmiservices.so|f00c0ff8198f3eb72fff243a6a58f532c2b52269
 vendor/lib64/libsettings.so|2ac0b04632293f9e2050e2113cd10af9ccf121b2
@@ -1089,11 +1081,11 @@ vendor/lib64/libscveObjectTracker_stub.so|c8d4ee447045e0bcd4bc9fe101ff3ad5089250
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|20dca87cf73b1e69b1650aff7c5c72f9e0b74fe0
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|aab964d5e947d461c190aa3841d136dfa0fd9b44
 
-# Sensors - from Zebra/helios/helios:13/13-32-14.00-TG-U02-STD-HEL-04/163:user/release-keys
+# Sensors - from Zebra/helios/helios:13/13-34-31.00-TG-U00-STD-HEL-04/181:user/release-keys
 -system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar|662159c62a683a2096a73adf1d52b1074c1ab960
 system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|50e57a9ffcf1483061fef4e48e8a831f61886ba4
 system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|b381c166cb399c3fec5163f7128f2de305c8004d
-vendor/bin/sensors.qti|c4b081c422d591df50cf79bf4dea5c8f85639c77
+vendor/bin/sensors.qti|98050e9e28e28bb9a9704deda0131b4692e6d15a
 vendor/lib/libsensor1.so|084f1bb499dfca2b2a23fd19d4ff4c45dab26293
 vendor/lib/libsensor_reg.so|8b1e757e0fbdfd740c6b6513473902d36d2235bc
 vendor/lib/libssc_default_listener.so|ddc720778e4610fd8b14b2bc92d9ec7b37682992
