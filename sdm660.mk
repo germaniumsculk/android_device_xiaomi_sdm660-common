@@ -217,7 +217,8 @@ PRODUCT_COPY_FILES += \
 
 # Fstab
 PRODUCT_PACKAGES += \
-    fstab.qcom
+    fstab.qcom \
+    fstab.qcom.ramdisk
 
 # Fastbootd
 PRODUCT_PACKAGES += \
