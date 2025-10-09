@@ -186,3 +186,11 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Thermal configs path
 sys.thermal.data.path=/data/vendor/thermal/
+
+# Infinity_x configuration
+ro.product.marketname=Redmi Note 7/7S
+ro.infinity.soc=Qualcomm Snapdragon 660 Inc.
+ro.infinity.battery=4000 mAh
+ro.infinity.display=1080 x 2340, 60 Hz
+ro.infinity.camera=48MP + 5MP
+
