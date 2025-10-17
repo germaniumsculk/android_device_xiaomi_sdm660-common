@@ -304,9 +304,6 @@ PRODUCT_PACKAGES += \
     qcom.fmradio.xml
 endif
 
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
 # IRQ
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
