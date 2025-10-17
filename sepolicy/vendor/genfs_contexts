@@ -4,11 +4,6 @@ genfscon sysfs /devices/platform/soc/c175000.i2c/i2c-1/1-0062                   
 # Battery Saver
 genfscon sysfs /module/battery_saver/parameters/enabled                                                                                              u:object_r:sysfs_battery_saver:s0
 
-# Lineage Health
-genfscon sysfs /class/power_supply/battery/battery_charging_enabled      u:object_r:sysfs_battery_supply:s0
-genfscon sysfs /class/power_supply/battery/charging_enabled              u:object_r:sysfs_battery_supply:s0
-genfscon sysfs /class/power_supply/battery/input_suspend                 u:object_r:sysfs_battery_supply:s0
-
 # Camera
 genfscon sysfs /devices/platform/soc/ca0c000.qcom,cci/ca0c000.qcom,cci:qcom,camera@0/video4linux/video2/name                                         u:object_r:sysfs_graphics:s0
 genfscon sysfs /devices/platform/soc/ca0c000.qcom,cci/ca0c000.qcom,cci:qcom,camera@1/video4linux/video3/name                                         u:object_r:sysfs_graphics:s0
