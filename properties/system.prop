@@ -186,3 +186,13 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Thermal configs path
 sys.thermal.data.path=/data/vendor/thermal/
+
+# Mist OS Configs
+ro.mist.display=1080 x 2340, 60 hz
+ro.mist.battery=4000mah
+ro.mist.soc=Qualcomm Snapdragon® 660
+ro.mist.camera=48MP + 5MP
+ro.mist.front=13MP
+ro.mist.platform=SDM660
+ro.mist.screen=6.3' IPS LCD
+ro.mist.device.name=Redmi Note 7/7S
