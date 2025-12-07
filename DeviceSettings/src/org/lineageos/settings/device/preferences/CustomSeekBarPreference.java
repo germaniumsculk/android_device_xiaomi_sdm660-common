@@ -16,9 +16,9 @@
 
 package org.lineageos.settings.device.preferences;
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.content.res.TypedArray;
+import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 import androidx.preference.*;
