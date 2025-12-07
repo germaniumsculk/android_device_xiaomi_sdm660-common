@@ -181,7 +181,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.mapper@2.0.vendor \
     gralloc.sdm660 \
-    hwcomposer.sdm660 \
+    hwcomposer.qcom \
     libdisplayconfig \
     libdrmutils \
     libgralloc.qti \
