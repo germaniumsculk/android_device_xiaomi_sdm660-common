@@ -18,6 +18,11 @@ bt.max.hfpclient.connections=1
 vendor.hw.fm.init=0
 ro.bluetooth.wipower=false
 
+# Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+ro.launcher.blur.appLaunch=0
+
 # Camera
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam
 camera.aux.packagelist=com.google.android.GoogleCamera,com.android.camera,org.codeaurora.snapcam
@@ -53,7 +58,6 @@ sdm.debug.disable_skip_validate=1
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
 ro.hwui.render_ahead=23
-ro.config.avoid_gfx_accel=true
 
 # DPM
 persist.vendor.dpm.loglevel=0
