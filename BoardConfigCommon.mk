@@ -3,6 +3,11 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+
+# Torch
+$(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.sdm660)
 
 # Common Tree Path
 COMMON_PATH := device/xiaomi/sdm660-common
@@ -112,7 +117,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_VERSION := 4.19
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
+TARGET_KERNEL_SOURCE := kernel/xiaomi/lavender
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 BOARD_RAMDISK_USE_LZ4 := true
 
