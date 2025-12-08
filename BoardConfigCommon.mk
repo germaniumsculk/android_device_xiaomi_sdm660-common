@@ -7,7 +7,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 # Torch
-$(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.sdm660)
+$(call soong_config_set,libcameraservice,ext_lib,//device/xiaomi/sdm660-common/camera:libcameraservice_extension.sdm660)
 
 # Common Tree Path
 COMMON_PATH := device/xiaomi/sdm660-common
