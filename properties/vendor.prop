@@ -113,6 +113,7 @@ ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.fm.use_audio_session=true
 ro.audio.spatializer_enabled=true
 persist.vendor.audio.spatializer.speaker_enabled=true
+persist.vendor.service.bdroid.sibs=false
 
 # Camera
 vendor.camera.aux.packageblacklist=com.discord
