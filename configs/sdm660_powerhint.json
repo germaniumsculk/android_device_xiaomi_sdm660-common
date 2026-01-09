@@ -234,18 +234,6 @@
       "Value": "10000"
     },
     {
-      "PowerHint": "LAUNCH",
-      "Node": "UClampForegroundBoost",
-      "Duration": 6000,
-      "Value": "30"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "UClampTopAppBoost",
-      "Duration": 6000,
-      "Value": "65"
-    },
-    {
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "PowerHALRenderingState",
       "Duration": 0,
