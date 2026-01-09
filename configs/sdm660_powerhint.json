@@ -114,24 +114,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "UClampForegroundBoost",
-      "Path": "/dev/cpuctl/foreground/cpu.uclamp.min",
-      "Values": [
-        "30",
-        "0"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "UClampTopAppBoost",
-      "Path": "/dev/cpuctl/top-app/cpu.uclamp.min",
-      "Values": [
-        "65",
-        "0"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "PowerHALMainState",
       "Path": "vendor.powerhal.state",
       "Values": [
